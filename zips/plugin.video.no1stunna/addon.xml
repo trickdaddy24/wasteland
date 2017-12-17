@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.no1stunna" name="No1Stunna" version="1.0.14" provider-name="No1Stunna midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -24,22 +23,3 @@
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
-
-<addon id="repository.wasteland" name="WaStElAnD" version="0.0.1" provider-name="No1Stunna">
-	<extension point="xbmc.addon.repository" name="WaStElAnD">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/trickdaddy24/repository.wasteland/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/trickdaddy24/repository.wasteland/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/trickdaddy24/repository.wasteland/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Quick one liner about the repository</summary>
-		<description lang="en">Full repository description.</description>
-		<genre>movies,tvshows,wizard,usa</genre>
-	</extension>
-</addon>
-</addons>
